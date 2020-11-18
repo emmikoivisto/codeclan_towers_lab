@@ -10,5 +10,13 @@ public class ConferenceRoom {
         this.name = name;
         this.guestsInConferenceRoom = new ArrayList<>();
     }
+
+    public int countGuests(){
+        return this.guestsInConferenceRoom.size();
+    }
+
+    public void addGuest(Guest guest){
+        this.guestsInConferenceRoom(guest);
+    }
 }
 
