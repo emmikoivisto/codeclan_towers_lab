@@ -1,4 +1,4 @@
 public class Hotel {
-    private ArrayList<Guest> guestsInHotel;
+//    private ArrayList<Guest> guestsInHotel;
 
 }

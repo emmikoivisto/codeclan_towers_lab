@@ -11,5 +11,17 @@ public class Bedroom {
         this.roomNumber = roomNumber;
         this.capacity = capacity;
         this.roomType = roomType;
+        this.guestsInBedroom = new ArrayList<>();
     }
+
+    public int countGuests(){
+        return this.guestsInBedroom.size();
+    }
+
+    public void addGuest(Guest guest){
+        if (this.countGuests() < this.capacity ){
+        this.guestsInBedroom.add(guest);
+        }
+    }
+
 }
