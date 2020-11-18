@@ -7,6 +7,11 @@ public class Hotel {
    public Hotel(){
        this.bedrooms = new ArrayList<Bedroom>();
        this.conferenceRooms = new ArrayList<ConferenceRoom>();
-
    }
+
+   public void checkIn(Guest guest, Bedroom bedroom){
+       bedroom.addGuest(guest);
+   }
+
+
 }
